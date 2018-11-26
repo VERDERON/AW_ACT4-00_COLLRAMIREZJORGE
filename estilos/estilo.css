@@ -1,0 +1,100 @@
+* {
+	box-sizing: border-box; /* Les mides inclouen 'padding', 'border' i el 'content' (no el margin) */
+}
+
+header {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f5f6f6+0,dbdce2+21,b8bac6+49,dddfe3+80,f5f6f6+100;Grey+Pipe */
+	background: #f5f6f6; /* Old browsers */
+	background: -moz-linear-gradient(top, #f5f6f6 0%, #dbdce2 21%, #b8bac6 49%, #dddfe3 80%, #f5f6f6 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#f5f6f6',GradientType=0 ); /* IE6-9 */
+	background-color: grey;
+	color: white;
+
+	text-align: center;
+}
+
+body {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e4f5fc+0,bfe8f9+50,9fd8ef+51,2ab0ed+100;Blue+Gloss+%235 */
+	background: #e4f5fc; /* Old browsers */
+	background: -moz-linear-gradient(top, #e4f5fc 0%, #bfe8f9 50%, #9fd8ef 51%, #2ab0ed 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f5fc', endColorstr='#2ab0ed',GradientType=0 ); /* IE6-9 */
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+	
+content {
+	float: right; 
+	width: 75%;
+	font-size: 20px;
+	text-align: justify;
+}
+
+h2 {
+	margin-top: 20px;
+}
+
+nav {
+	list-style-type: none;
+	width: 25%;
+	float: left;
+	margin-top: 40px;
+	padding: 0px;
+}
+
+nav table,th,td{
+	margin-top: 20px;
+	width: 100%;
+	float: left;
+	border: solid;
+	border-collapse: colapse;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	padding: 8px;
+	margin-bottom: 8px;
+	background-color: #33b5e5;
+	color: white;
+}
+table td em {
+	color: blue !important;
+}
+
+table td>em {
+	color: purple !important;
+}
+
+nav li:hover {
+	background-color: #FD5867;
+	color: black;
+}
+
+footer { 
+	color: white;
+	float: left;
+	clear: all;
+	width: 100%;
+	text-align: center;
+	background-color: red;
+}	
+
+img.flip {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        -ms-filter: "FlipH";
+}
+
+
